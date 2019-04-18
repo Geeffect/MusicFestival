@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: notosanskr, Helvetica Neue, Arial;
+}
+
+.hero-header {
+	background-image: url("hero_image.jpg");
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	width: auto;
+	height: 400px;
+}
+
+.info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+}
+
+.info, .learn-more {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	margin: 5px;
+	width: 100%;
+	font-size: 39px;
+}
+
+h2 {
+	margin-bottom: 40px;
+	font-size: 19px;
+	font-weight: lighter;
+}
+
+.learn-more {
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 8px 40px;
+	font-size: 18px;
+}
+
+#logo {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: 700;
+}
